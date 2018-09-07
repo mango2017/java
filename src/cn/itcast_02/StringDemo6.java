@@ -39,18 +39,14 @@ public class StringDemo6 {
 		System.out.println(s1.isEmpty());//false
 		
 		String s4="";
+		String s6 = new String();
+		System.out.println("$$$$"+s4.equals(s6));
+		System.out.println(s4==s6);
 		String s5=null;
 		System.out.println(s4.isEmpty());//true
 		//NullPointerException
 		//s5对象都不存在，所以不能调用方法，空指针异常
 		System.out.println(s5.isEmpty());//报错
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

@@ -26,5 +26,10 @@ public class StringDemo1 {
 		System.out.println(s6.compareTo(s7)); //0
 		System.out.println(s6.compareTo(s8)); //7
 		System.out.println(s6.compareTo(s9)); //-16  前一个字符ascii码-后一个字符的ascii码
+		
+		
+		String s10 = "hel";
+		String s11 = "hello";
+		System.out.println(s10.compareTo(s11));
 	}
 }

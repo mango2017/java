@@ -32,13 +32,6 @@ public class StringDemo7 {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }

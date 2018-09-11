@@ -1,4 +1,4 @@
-package cn.itcast_011;
+package cn.itcast_11;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -66,3 +66,12 @@ d.可以通过类名调用，其实它本身也可以通过对象名调用，推
 	b.右边
 		看方法名，方法名称不要写错
 		参数列表，人家要什么，你就给什么，人家要几个，你就给几个
+		
+		
+10.如何制作一个说明书呢？
+	a.写一个工具类
+	b.对这个类加入文档注释
+	c.用工具解析文档注释
+	d.格式
+		javac -d 目录  -author -version 文件名
+		elipse里是：project->Generate javadoc  一直next 然后写：-encoding utf-8 -charset utf-8

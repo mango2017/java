@@ -29,8 +29,6 @@ public class StudentTest {
 		student2.setAge(29);
 		student2.setName("dddd");
 		System.out.println(student2.getAge()+"--------------"+student2.getName());
-
-
 	}
 
 }

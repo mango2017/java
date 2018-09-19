@@ -35,7 +35,7 @@ public class FileDemo2 {
 		File file7= new File("d:\\test\\aa\\bb");
 		System.out.println(file7.mkdirs());
 		
-		//
+		
 		
 		
 		

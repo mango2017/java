@@ -1,0 +1,32 @@
+package cn.itcast_20;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+/**
+ * 获取功能：
+ * public String[] list();//获取指定目录下的所有文件或者文件夹的数组
+ * public File[] listFiles();获取指定目录下的所有文件或者文件夹的File数组
+ * 
+ */
+public class FileDemo7 {
+	public static void main(String[] args)  {
+		//指定一个目录
+		File file = new File("d:\\");
+		//public String[] list();//获取指定目录下的所有文件或者文件夹的数组
+		String[] strArray  = file.list();
+		for(String s:strArray) {
+			System.out.println(s);
+		}
+		System.out.println("-----------------");
+		
+		//public File[] listFiles();获取指定目录下的所有文件或者文件夹的File数组
+		File[] fileArray = file.listFiles();  //返回的是文件对象数组，不仅仅可以获取文件的名字，还可以获取文件的路径等等哦
+		for(File f:fileArray) {
+			System.out.println(f.getName());
+		}
+		
+	}
+}

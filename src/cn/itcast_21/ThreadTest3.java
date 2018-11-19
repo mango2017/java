@@ -15,7 +15,7 @@ public class ThreadTest3 {
      }
 }
 
-class MyThread3 extends  Thread{
+class MyThread3 extends Thread{
     private String title;
     public MyThread3(String title){
         this.title = title;
